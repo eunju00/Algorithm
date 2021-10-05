@@ -19,9 +19,9 @@ rl.on('line',function (line) {
         if (num1 == -1) {
             num1 =23;
         }}
-        else {
-            num2 = num2 - 45;
-        }
+    else {
+        num2 = num2 - 45;
+    }
 
         console.log(num1 + ' ' + num2);
         rl.close();
